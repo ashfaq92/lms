@@ -1,0 +1,8 @@
+pyinstaller --noconsole --onefile --icon=icon.ico --name=TeachingManagementSystem cli.py
+pyinstaller TeachingManagementSystem.spec
+
+ pyinstaller cli.py --noconsole --onefile --icon=icon.ico --name=TeachingManagementSystem --add-data "C:\Users\Muhammad Ashfaq\OneDrive\Program
+ming\TeachingManagementSystem\Modals\TMS.db; Modals\"
+
+
+pip install cx_Freeze==5.0.2
